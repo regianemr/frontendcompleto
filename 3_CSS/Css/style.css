@@ -1,0 +1,92 @@
+/* 4 External */
+body{
+    padding-bottom: 500px;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: blueviolet
+}
+/* Classes*/
+.paragraph{
+    background-color: blueviolet;
+    color: black;
+    padding: 5px;
+}
+
+/* id */
+#titulo-exclusivo{
+    background-color: purple;
+    color: yellow;
+    padding: 15px;
+}
+
+/* ordem das regras id> class> tag*/
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid yellow;
+}
+/* Nome de cores */
+.color-name{
+    color:tomato
+}
+
+/* hex */
+.hex{
+    color: #55a398;
+}
+.hex-2{
+    color: #66f236;
+}
+/* aprofundando em hex */
+.hex-simplicifado{
+    color: #333;
+}
+.hex-simplicifado-2{
+    color: #a5f;
+}
+
+/* RGB */
+.rgb{
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb{
+    color: rgb(95, 31, 122);
+}
+
+/* RGBa */
+
+.rgba{
+    color: rgba(100, 199, 45, 0.6);
+}
+
+/* hsl */
+.hsl{
+    color: hsl(100, 20%, 20%);
+}
+
+.hsl-2{
+    color: hsl(180, 98%, 30%);
+}
+/* Background */
+
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200, 20, 40);
+    color: #93d3cf;
+}
