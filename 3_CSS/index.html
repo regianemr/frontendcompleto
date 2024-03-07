@@ -7,7 +7,7 @@
     <!-- internal CSS -->
     <style>
         p{
-            color: gold;
+            /* color: gold; */
             font-size: 40px;
         }
     </style>
@@ -80,5 +80,88 @@
     <!-- background color -->
     <p class="bg">Mude o meu background</p>
     <h2 class="bg-2">Outra variação de BG</h2>
+    
+    <!-- opacidade no background -->
+    <div class="bg-opacity">
+        <p>Estou aqui visivel!</p>
+    </div>
+    <div class="bg-opacity-2">
+        <p>Estou aqui quase visivel!</p>
+    </div>
+
+    <!-- rgba com opacidade -->
+    <div class="rgba-opacity">
+        <h1>Este título precisa estar visivel</h1>
+    </div>
+
+    <!-- Background images regra: url("pasta/imagem.jpg")-->
+    <h1 class="bg-image">Este titulo tem uma imagem</h1>
+
+    <!-- Centralizar imagem de BG (regras: background-position com valor 
+        de center e background-size com valor de cover) -->
+    <div class="not-centered-bg"></div>
+    <div class="centered-bg"></div>
+
+    <!-- Largura e altura -->
+    <div class="height-width"></div>
+    <div class="height-width-2"></div>
+
+    <!-- Padding - distância entre o conteúdo e a borda do elemento -
+    espaçamento interno -->
+    <div class="without-padding">Este não tem padding</div>
+    <div class="padding">Este tem padding</div>
+    
+    <!-- lados individuais do padding (top, left, right, bottom) -->
+    <p class="padding-individual">Este elementos tem paddings diferentes</p>
+
+    <!-- Shorthand properties (propriedades de shorthand permite adicionar 
+        paddings em todas as direções com uma regra: top,right, bottom e left 
+        nessa ordem, ex: 10px, 5px, 12px, 20px) -->
+
+    <p class="shorthand-padding">Algum texto</p>
+    <p class="shorthand-padding-2">Algum texto 2</p>
+
+    <!-- Padding e width  - regra de box-sizing e valor de border-box-->
+    <div class="without-border-box">
+        <p>Algum conteudo sem border-box</p>
+    </div>
+    <div class="border-box">
+        <p>Algum conteúdo com border-box</p>
+    </div>
+
+    <!-- Borda - elemento central, fica entre o padding e margin.
+    Pode ter tamanho, aspecto e cor da borda. -->
+    <div class="border">Borda</div>
+    <div class="border-2">Borda 2</div>
+
+    <!-- Lados individuais da borda -->
+    <p class="border-left">Borda na esqueda</p>
+    <p class="border-bottom">Borda inferior</p>
+
+    <!-- Borda arredondada -->
+    <div class="rounded-p">Eu estou arredondado</div>
+    <div class="rounded-p-2">Eu estou arredondado 2</div>
+
+    <!-- Margin - responsável pelo espaçamento externo do elemento -->
+    <div class="margin">Eu tenho margem</div>
+    <div class="margin-top">Eu tenho margem no topo</div>
+    <div class="margin-shorthand">Utilizando shorthand</div>
+
+    <!-- Elementos do box model juntos -->
+    <div class="box-model">
+        <p>Tenho todas as propriedades de um box model</p>
+    </div>
+
+    <!-- Desafio 3 -->
+    <div id="desafio-3">
+        <h2 class="titulo">Esse é o desafio 3</h2>
+    </div>
+    <!-- Alinhamento de texto -->
+    <p class="text-aligned">Alinhado a direita</p>
+    <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Algum texto</p>
+    </div>
+
 </body>
 </html>
